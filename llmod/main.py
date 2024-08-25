@@ -140,8 +140,6 @@ async def scrape_history(ctx, channel: discord.TextChannel = None):
 
     await ctx.send(f"Finished scraping. Total messages scraped: {total_messages}")
 
-# ... (rest of the previous code remains the same)
-
 # Modify the store_message function to handle potential errors
 def store_message(message):
     try:
